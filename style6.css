@@ -1,0 +1,90 @@
+#container{
+    display:flex;
+    justify-content: center;
+    padding-top:150px;
+}
+#image{
+    /* background-color: black; */
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    /* border:1px solid black; */
+    background-image: url(./iconos-web-05-300x257.png);
+    background-size:cover;
+}
+
+#first{
+    position:absolute;
+    top:370px;
+
+}
+#h4{
+    margin:0px;
+}
+#username{
+    width:350px;
+    height:20px
+}
+
+
+#second{
+    position:absolute;
+    top:420px;
+}
+#h42{
+    margin:0px;
+}
+#login{
+    position:absolute;
+    top:460px;
+
+
+}
+button{
+    background-color: rgb(46, 163, 55);
+    border:1px solid white;
+    width:360px;
+    height:25px;
+    color:white;
+
+}
+
+#checkbox{
+    position:absolute;
+    top:510px;
+}
+#remme{
+    display:inline;
+    margin-right: 248px;
+}
+
+#last{
+    position:absolute;
+    top:550px;
+    background-color: rgb(223, 225, 223);
+    height:50px;
+    width:358px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+#cancel{
+    position:absolute;
+    left:0px;
+    top:20px;
+    background-color: red;
+    color:white;
+    padding:5px;
+    border-radius: 15%;
+    bottom:5px;
+
+} 
+
+p{
+    position: absolute;
+    right:1px;
+    top:7px;
+}
+
+

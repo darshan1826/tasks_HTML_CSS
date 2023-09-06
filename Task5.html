@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+        }
+
+        h1{
+            margin-left: 290px;
+            color:blue
+        }
+        table{
+            border:1px solid black
+        }
+        th,td{
+            border:1px solid black
+        }
+        th{
+            width:180px
+        }
+        td{
+            width:600px
+        }
+        input{
+            width:600px;
+        }
+        /* #lable{
+            display:flex;
+            justify-content: center;
+            align-content:center
+
+        } */
+        .radio{
+            width:50px;
+        }
+        #radio2{
+            width:40px
+            
+        }
+        /* #lable2{
+            display:flex;
+            margin-left: 264px;
+
+
+        } */
+        .inp{
+            width:10px
+        }
+        textarea{
+            width:600px
+        }
+        .inpu{
+            width:15px
+        }
+
+        #first{
+      
+            border:0.25px solid black;
+            height:22px;
+            width:802px;
+            border-top: 0px;
+            
+
+        }
+
+        #input2{
+            width:30px;
+            height:17px;
+            margin-top: 2px;
+        }
+
+        #second{
+
+            border:0.25px solid black;
+            height:22px;
+            width:802px;
+            border-top: 0px;
+            text-align: end;
+
+        }
+
+        button{
+            margin-left: 370px;
+            margin-top:20px;
+            height:30px;
+            width:90px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+        <h1>Registration form</h1>
+
+            <table>   
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text"></td>
+                </tr>
+        
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text"></td>
+                </tr>
+        
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text"></td>
+                </tr>
+        
+                <tr>
+                    <th>Password</th>
+                    <td><input type="Password"></td>
+                </tr>
+        
+                <tr>
+                    <th>Re-enter Password</th>
+                    <td><input type="password"></td>
+                </tr>
+        
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <lable id="lable"><input type="radio" value="Male" name="gender" class="inp">Male </lable>
+                        <hr id="hr">
+                        <lable id="lable2"><input type="radio" value="Male" name="gender"class="inp">Female </lable>
+        
+                    </td>
+                </tr>
+        
+                <tr>
+                    <th>Age</th>
+                    <td>
+                        <input type="text">
+                    </td>
+        
+                </tr>
+        
+                <tr>
+                    <th>Phone Number</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                    
+        
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td>
+                        <textarea name="feedback" placeholder="enter your address " rows="5" ></textarea>
+                    </td>
+        
+                </tr>
+        
+                
+                <tr>
+                    <th>State</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                    
+        
+                </tr>
+        
+                
+                <tr>
+                    <th>country</th>
+                    <td>
+                       Choose your country
+                        <select name="country">
+                            <option value="delhi">india</option>
+                            <option value="amritsar">america</option>
+                            <option value="dalhousie">russia</option>
+                            <option value="wagha border">japan</option>
+                    
+                        </select>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <th>Language known</th>
+                    <td>
+                        <label for="English">English</label>
+                        <input type="checkbox" name="language" value="English" class="inpu" >
+                        <label for="knnada">kannada</label>
+                        <input type="checkbox" name="language" value="kannada" class="inpu">
+                        <label for="Hindi">Hindi</label>
+                        <input type="checkbox" name="language" value="Hindi"class="inpu" >
+                        <label for="Hindi">Telugu</label>
+                        <input type="checkbox" name="language" value="telugu"class="inpu" >
+                    </td>
+        
+                </tr>
+        
+        
+            </table>
+            <div id="first">
+                <input type="checkbox" id="input2">Hereby I declare all the given details are ture 
+            </div>
+            <div id="second">
+                <p> Log in to <a href=""> Ethnus</a> website</p>
+            </div>
+
+            <button>
+                Register
+            </button>
+
+   
+    
+</body>
+</html>

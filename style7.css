@@ -1,0 +1,69 @@
+
+
+#container{
+    display:flex;
+    justify-content: center;
+
+
+}
+
+#first{
+    background-color:rgb(176, 51, 77) ;
+
+    width:900px;
+    height:700px;
+    position:absolute;
+    top:100px; 
+
+   
+
+
+}
+#second{
+    background-color:rgb(135, 28, 50);
+    height:550px;
+    width:700px;
+    margin-top: 80px;
+    margin-left:100px;
+
+    
+}
+
+#third{
+    display:inline-block;
+    margin-top:80px;
+    margin-left:100px;
+    color:white;
+
+}
+#fourth{
+    display:inline-block;
+    position:absolute;
+    margin-top:100px;
+    margin-left:10px
+
+}
+input{
+    width:300px;
+}
+
+#fifth{
+    position:absolute;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height:50px;
+    width:425px;
+    margin-left:100px;
+
+}
+b{
+    position:absolute;
+    top:10px;
+    left:185px
+}
+
+
+.inp{
+    width:10px
+}
